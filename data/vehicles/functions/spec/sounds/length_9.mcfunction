@@ -1,0 +1,2 @@
+execute if data storage math:io {temp_s:"engine_10"} run playsound vehicles:vehicle.engine_10 player @a[distance=..20] ~ ~ ~ 1.5 1.0 1.0
+execute if data storage math:io {temp_s:"engine_11"} run playsound vehicles:vehicle.engine_11 player @a[distance=..20] ~ ~ ~ 1.5 1.0 1.0

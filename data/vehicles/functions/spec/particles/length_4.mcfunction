@@ -1,0 +1,1 @@
+execute if data storage math:io {temp_s:"lava"} run particle lava ~ ~ ~ 0.0 0.0 0.0 0.0 1 force @a

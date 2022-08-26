@@ -1,0 +1,1 @@
+data modify entity @s ArmorItems[3].tag.CustomModelData set from storage math:io temp_list[0].set_cmd

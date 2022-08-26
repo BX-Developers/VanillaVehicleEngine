@@ -1,0 +1,3 @@
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.road_type run function vehicles:specs_check/value_conditions/road_type
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.velocity run function vehicles:specs_check/value_conditions/velocity
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.time_check run function vehicles:specs_check/value_conditions/time_check

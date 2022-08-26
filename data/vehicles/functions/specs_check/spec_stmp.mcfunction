@@ -1,0 +1,12 @@
+execute if data storage math:io temp_list[0].set_rot run function vehicles:spec/set_rot
+execute if data storage math:io temp_list[0].set_phi run function vehicles:spec/set_phi
+execute if data storage math:io temp_list[0].add_rot0 run function vehicles:spec/add_rot0
+execute if data storage math:io temp_list[0].add_rot1 run function vehicles:spec/add_rot1
+execute if data storage math:io temp_list[0].add_phi run function vehicles:spec/add_phi
+execute if data storage math:io temp_list[0].phiv_to run function vehicles:spec/phiv_to
+execute if data storage math:io temp_list[0].set_cmd run function vehicles:spec/set_cmd
+execute if data storage math:io temp_list[0].add_cmd run function vehicles:spec/add_cmd
+execute if data storage math:io temp_list[0].cmd run function vehicles:spec/cmd
+execute if data storage math:io temp_list[0].-cmd run function vehicles:spec/-cmd
+execute if data storage math:io temp_list[0].play_sound run function vehicles:spec/play_sound
+execute if data storage math:io temp_list[0].particle run function vehicles:spec/particle

@@ -1,0 +1,9 @@
+execute if score temp_slot int matches 27 run item replace entity @s container.27 from entity @e[tag=stmp,limit=1] armor.head
+execute if score temp_slot int matches 28 run item replace entity @s container.28 from entity @e[tag=stmp,limit=1] armor.head
+execute if score temp_slot int matches 29 run item replace entity @s container.29 from entity @e[tag=stmp,limit=1] armor.head
+execute if score temp_slot int matches 30 run item replace entity @s container.30 from entity @e[tag=stmp,limit=1] armor.head
+execute if score temp_slot int matches 31 run item replace entity @s container.31 from entity @e[tag=stmp,limit=1] armor.head
+execute if score temp_slot int matches 32 run item replace entity @s container.32 from entity @e[tag=stmp,limit=1] armor.head
+execute if score temp_slot int matches 33 run item replace entity @s container.33 from entity @e[tag=stmp,limit=1] armor.head
+execute if score temp_slot int matches 34 run item replace entity @s container.34 from entity @e[tag=stmp,limit=1] armor.head
+execute if score temp_slot int matches 35 run item replace entity @s container.35 from entity @e[tag=stmp,limit=1] armor.head

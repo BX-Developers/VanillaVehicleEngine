@@ -1,0 +1,10 @@
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.time_check.0 run function vehicles:specs_check/value_conditions/time_check/0
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.time_check.1 run function vehicles:specs_check/value_conditions/time_check/1
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.time_check.2 run function vehicles:specs_check/value_conditions/time_check/2
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.time_check.3 run function vehicles:specs_check/value_conditions/time_check/3
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.time_check.4 run function vehicles:specs_check/value_conditions/time_check/4
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.time_check.5 run function vehicles:specs_check/value_conditions/time_check/5
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.time_check.6 run function vehicles:specs_check/value_conditions/time_check/6
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.time_check.7 run function vehicles:specs_check/value_conditions/time_check/7
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.time_check.8 run function vehicles:specs_check/value_conditions/time_check/8
+execute if data storage math:io temp_actions[0].actions[0].value_conditions.time_check.9 run function vehicles:specs_check/value_conditions/time_check/9

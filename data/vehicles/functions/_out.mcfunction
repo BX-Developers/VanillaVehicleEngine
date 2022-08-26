@@ -1,0 +1,12 @@
+say ---
+tellraw @a [{"text":"pos:"},{"nbt":"Pos","entity":"@s"},{"text":","}]
+tellraw @a [{"text":"rotation:"},{"nbt":"Rotation","entity":"@s"},{"text":","}]
+tellraw @a [{"text":"roll:"},{"score":{"name":"@s","objective":"roll"}},{"text":","}]
+tellraw @a [{"text":"vehicle_vr0:"},{"score":{"name":"@s","objective":"vehicle_vr0"}},{"text":","}]
+tellraw @a [{"text":"vehicle_vr1:"},{"score":{"name":"@s","objective":"vehicle_vr1"}},{"text":","}]
+tellraw @a [{"text":"vehicle_sp:"},{"score":{"name":"@s","objective":"vehicle_sp"}},{"text":","}]
+tellraw @a [{"text":"rotation_u:"},{"score":{"name":"@s","objective":"rotation_u"}},{"text":","}]
+tellraw @a [{"text":"rotation_v:"},{"score":{"name":"@s","objective":"rotation_v"}},{"text":","}]
+tellraw @a [{"text":"rotation_w:"},{"score":{"name":"@s","objective":"rotation_w"}},{"text":","}]
+tellraw @a [{"text":"vehicle_cfo:"},{"score":{"name":"@s","objective":"vehicle_cfo"}},{"text":","}]
+tellraw @a [{"text":"vehicle_cwi:"},{"score":{"name":"@s","objective":"vehicle_cwi"}},{"text":","}]

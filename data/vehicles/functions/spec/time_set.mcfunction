@@ -1,0 +1,10 @@
+execute if data storage math:io temp_list[0].time_set.0 run function vehicles:spec/time_set/0
+execute if data storage math:io temp_list[0].time_set.1 run function vehicles:spec/time_set/1
+execute if data storage math:io temp_list[0].time_set.2 run function vehicles:spec/time_set/2
+execute if data storage math:io temp_list[0].time_set.3 run function vehicles:spec/time_set/3
+execute if data storage math:io temp_list[0].time_set.4 run function vehicles:spec/time_set/4
+execute if data storage math:io temp_list[0].time_set.5 run function vehicles:spec/time_set/5
+execute if data storage math:io temp_list[0].time_set.6 run function vehicles:spec/time_set/6
+execute if data storage math:io temp_list[0].time_set.7 run function vehicles:spec/time_set/7
+execute if data storage math:io temp_list[0].time_set.8 run function vehicles:spec/time_set/8
+execute if data storage math:io temp_list[0].time_set.9 run function vehicles:spec/time_set/9

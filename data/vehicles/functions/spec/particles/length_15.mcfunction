@@ -1,0 +1,1 @@
+execute if data storage math:io {temp_s:"end_rod_speed_1"} run particle end_rod ~ ~ ~ ^ ^ ^3000000000 0.00000000008 0 force @a

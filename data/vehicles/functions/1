@@ -1,0 +1,96 @@
+#载具概念：
+数据模板
+上级实体与附属实体
+根实体与配对实体
+cube：模型块,座椅块,箱子矿车,潜影贝,村民
+控制座椅与操作模式
+可转动部件
+碰撞点与着陆点
+速度(球坐标)
+角速度(俯仰,偏航,横滚)
+状态标签与状态变量
+spec系统
+GUI系统
+接口函数：_init，_class，_spawn，_design，_tp，_die，_return_ctrl，_impluse
+
+#引擎可注册内容：
+地面实体
+操作模式
+载具GUI
+spec函数
+粒子
+音效
+状态标签
+状态变量
+
+#引擎自带注册内容
+地面实体：128球面
+操作模式：0,1,2,3,4,5
+载具GUI： 1,2,3,4,5
+spec函数：cmd,-cmd,add_cmd,set_cmd
+	  add_phi,set_phi,phiv_to
+	  add_rot0,add_rot1,set_rot
+	  set_pos
+	  tag_add,tag_rmv
+	  time_add,time_set
+	  play_sound
+	  particle
+粒子：	  lava,flame,sflame,end_rod,flame_fow
+音效：	  propeller_0~3,turn_0,engine_0~11,door_open0,door_close0
+状态标签：vehicle_MC,vehicle_OG,vehicle_UP,vehicle_ST,vehicle_LS,vehicle_TS,vehicle_OW
+	  engine_run,speed_up,back_up,turning,turn_left,turn_right,hit_on_block,
+	  vehicle_T0~9
+状态变量: road_type,velocity,time_check
+
+#载具数据NBT：
+		键名			类型			说明		参考值
+		id			string			载具型号	略
+		ctrl_type		int			操作模式	2
+		mass			double			惯性质量	5.0d
+		back			double			倒车速度	1.25d
+		v_max			double			最大速度	8.0d
+		r_max			double			转弯最大速度	45.0d
+		fly_v			double			起飞速度	13.5d
+		fly_u			double			起飞俯仰角	35.0d
+		bounce			double			碰撞弹性	0.3d
+		low_sp			double			低速临界	6.5d
+		rot_um			double			最大俯仰角	30.0d
+		rot_rm			double			最大横滚角	30.0d
+		braking			double			刹车速度	1.25d
+		gravity			double			重力加速度	3.0d
+		friction		double			摩擦系数	0.959d
+		gravity_point		list_double		重心位置	[0.0d,0.0d,0.0d]
+		gravity_vector		list_double		着陆点向量	[0.7d,-0.5d,0.9d]
+		buoyancy_point		list_double		浮力点位置	[0.0d,0.2d,0.0d]
+		collision_points	list_(list_double)	碰撞点列表	[[0.0d,0.0d,0.0d]]
+		cubes			list_cmp		cube列表	[{}]
+		specs			list_cmp		spec列表	[{}]
+		pos			list_double		生成位置	[0.0d,0.0d,0.0d]
+		rotation		list_float		生成朝向	[0.0f,0.0f]
+
+#cube数据NBT：
+		键名			类型			说明		参考值
+		seat_type		int			cube类型	0
+		ctrl_seat		int			控制座椅GUI	0
+		cmd			int			cube模型	0
+		uvw			list_double		局部坐标	[0.0d,0.0d,0.0d]
+		rot			list_float		转动部件朝向	[0.0f,0.0f]
+		tags			list_string		部件uaec标签	["test"]
+		dsp_tags		list_string		部件实体标签	["dsp_test"]
+		lc_tag			string			左键spec列表	lc_triggered
+		rc_tag			string			右键spec列表	rc_triggered
+
+#spec数据NBT：
+		键名			类型			说明		参考值
+		cube			string			所选uaec标签	"vehicle"
+		actions			list_cmp		action列表	[{}]
+
+#action数据NBT：
+		键名			类型			说明		参考值
+		%spec函数名%		%spec函数类型%		%spec函数功能%	%spec函数体%
+		T			int			循环周期	5
+		t			int			周期相位	1
+		condition		string			根实体所需标签	"vehicle_OG"
+		conditions		list_string		根实体所需标签	["vehicle_OG"]
+		not_condition		string			根实体需无标签	"vehicle_OG"
+		not_conditions		list_string		根实体需不全有	["vehicle_OG"]

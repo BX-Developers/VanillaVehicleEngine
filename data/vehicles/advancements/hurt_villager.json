@@ -1,0 +1,4 @@
+{
+	"criteria":{"hurt_villager":{"trigger":"minecraft:player_hurt_entity","conditions":{"entity":{"type":"minecraft:villager"}}}},
+	"rewards":{"function":"vehicles:cubes/villager/get_entity1"}
+}

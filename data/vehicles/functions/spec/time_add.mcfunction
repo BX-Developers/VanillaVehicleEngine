@@ -1,0 +1,10 @@
+execute if data storage math:io temp_list[0].time_add.0 run function vehicles:spec/time_add/0
+execute if data storage math:io temp_list[0].time_add.1 run function vehicles:spec/time_add/1
+execute if data storage math:io temp_list[0].time_add.2 run function vehicles:spec/time_add/2
+execute if data storage math:io temp_list[0].time_add.3 run function vehicles:spec/time_add/3
+execute if data storage math:io temp_list[0].time_add.4 run function vehicles:spec/time_add/4
+execute if data storage math:io temp_list[0].time_add.5 run function vehicles:spec/time_add/5
+execute if data storage math:io temp_list[0].time_add.6 run function vehicles:spec/time_add/6
+execute if data storage math:io temp_list[0].time_add.7 run function vehicles:spec/time_add/7
+execute if data storage math:io temp_list[0].time_add.8 run function vehicles:spec/time_add/8
+execute if data storage math:io temp_list[0].time_add.9 run function vehicles:spec/time_add/9

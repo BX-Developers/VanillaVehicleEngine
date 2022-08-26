@@ -1,0 +1,1 @@
+scoreboard players set @e[tag=tmp,limit=1] vehicle_cwi 1
