@@ -47,15 +47,15 @@ A physics engine designed for implementing a more realistic vehicle experience i
 	7.<spec system>  
 	8.<function interfaces>  
 
-> vve还有哪些不足？  
-	1.对性能要求较高，每辆载具每 tick 执行命令数可达上千条  
-	2.使用盔甲架 Pose 制作的动画效果不够流畅  
-	3.物理引擎不够完善，有抖动、穿模等问题  
-	4.引擎自带素材(比如音效)不够丰富  
-	5.按键操作不方便  
+> Shortcomings  
+	1.Up to thousands of commands per tick per vehicle required high-end hardware  
+	2.Laggy animations made using armor stand Pose  
+	3.Model breakthroughing and jittering etc. in physics engine  
+	4.Default materials ain't rich enough e.g. sounds  
+	5.Unconvenient key controls  
     
-[载具基础资源包](https://github.com/BX-Developers/VVE-Resources)   
-[使用文档](https://github.com/BX-Developers/VVE-Documents)   
-介绍视频：[BV1yU4y1k7Ag](https://www.bilibili.com/video/BV1yU4y1k7Ag)
-# 贡献者
-原创 & 命令：[小豆8593](https://space.bilibili.com/206987540) QQ：859345316  
+[Basic Vehicles Resource Pack](https://github.com/BX-Developers/VVE-Resources)   
+[Documents](https://github.com/BX-Developers/VVE-Documents)   
+Intro Video(Bilibili): [BV1yU4y1k7Ag](https://www.bilibili.com/video/BV1yU4y1k7Ag)
+# Credits
+Original Creator & Commands: [Xiaodou8593](https://space.bilibili.com/206987540) QQ：859345316  
